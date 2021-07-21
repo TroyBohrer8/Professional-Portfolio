@@ -4,61 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.css">
- 
     <title>Troy's Portfolio</title>
 </head>
 <body>
-
-    <!--Header-->
-
-    <header>
-        <h1>Troy Bohrer</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
+    <!--Jumbotron-->
+    <div class="jumbotron text-center">
+        <h1>Hello! My name is Troy Bohrer</h1>
+        <p>I am a student in a coding bootcamp at Johns Hopkins University!</p> 
+      </div>
+    <!--Navbar-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3><a href="#projects">Projects</a></h3>
+          </div>
+          <div class="col-sm-4">
+            <h3>About Me</h3>
+          </div>
+          <div class="col-sm-4">
+            <h3>Contact Me</h3> 
+          </div>
+        </div>
+      </div>
     <!--Image-->
-
-    <figure>
-        <img src="./images/troybohrer.jpeg" alt="Troy Bohrer">
-    </figure>
-
+        <img src="./images/troybohrer.jpeg" id="troy" alt="Troy Bohrer">
+    
     <main>
-
         <!--About me-->
-
-        <div id="about-me" class="intro">
+        <div id="about-me">
          <h2>About me</h2>
-         <p>Hello! My name is Troy Bohrer and I am currently enrolled at The Coding Bootcamp at Johns Hopkins University.
-         </p>
+         <p></p>
         </div>
 
         <!--Projects-->
 
-        <div id="projects" class="project">
-            <h2>Projects</h2>
+        <div class="project">
+            <h2 id="projects">Projects</h2>
+            <div class="links">
+              <a href="https://troybohrer8.github.io/Project-1/" id="flixfinder">FlixFinder.com</a>
+              <a href="https://troybohrer8.github.io/Random-Password-Generator/">Random Password Generator</a>
+              <a href="https://troybohrer8.github.io/Work-Day-Scheduler/">Work Day Scheduler</a>
+            </div>
         </div>
 
         <!--Contact me-->
         
-        <div id="contact-me" class="contact">
+        <div class="contact">
             <h2>Contact Me</h2>
             <p>Email:tbohrer96@gmail.com</p>
             <p>Phone:(443)-679-7356</p>
-            <p>Github</p>
-            <p>LinkedIn</p>
+            <a href="https://github.com/TroyBohrer8">Github</a>
+            <a href="https://www.linkedin.com/in/troy-bohrer-13394b20a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7vBG9%2BYrSTyeJ9d6a2jVkQ%3D%3DLinkedIn">LinkedIn</a>
         </div>
 
     </main>

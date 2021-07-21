@@ -1,103 +1,42 @@
-* {
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
+#troy {
+    height: 500px;
+    width: 400px;
+    float: left;
+}
+
+.jumbotron {
+    color: #000;
+    background: #ff0000;
+    margin: auto;
+}
+
+#about-me {
+    flex-wrap: wrap;
+    float: right;
+    margin-top: 0;
 }
 
 body {
-    background-color: cornflowerblue;
+    background-color: darkslategrey;
+    color: white; 
 }
 
-header {
-    display: flex;
-    background-color: #000000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 20px;
-    margin: 10px;
-    color: #ff0000;
+.container {
+    margin: auto;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 50px;
 }
 
-h1 {
-    display: inline-block;
-    font-size: 50px;
-}
-
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    text-align: right;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-a {
+h3 a{
     text-decoration: none;
-    color: #ff0000;
-    border: solid 1px #ff0000;
-    padding: 10px;
-}
-
-img {
-    height: 500px;
-    width: 500px;
-    float: left;
-    margin: 5px;
-}
-
-.intro {
-    display: flex;
-    padding-left: 0;
-    border: solid 1px #000000;
-    background-color: cornsilk;
-    font-weight: bold;
-}
-
-.intro h2 {
-    display: block;
-    background-color: aqua;
-    margin: 10px;
-}
-
-.intro p {
-    display: block;
-    padding: 10px;
-}
-
-.project {
-    display: flex;
-    clear: left;
-    border: dashed 1px greenyellow;
-}
-
-.contact {
-    display: flex;
-    background-color: blueviolet;
     color: white;
 }
 
-.contact p {
-    display: inline;
-    border: solid 1px #ffffff;
-    margin: 10px;
-    padding: 10px;
+h3 a:hover {
+    color: peru;
 }
 
-@media screen and (max-width: 992px) {
-    header {
-        background: #ffffff;
-    }
-
-    nav {
-        width: 50%;
-    }
+main {
+    display: flex;
 }
