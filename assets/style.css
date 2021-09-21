@@ -40,3 +40,22 @@ h3 a:hover {
 main {
     display: flex;
 }
+
+.links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+} 
+
+.links a:hover {
+    color: red;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover {
+    color: red;
+}
