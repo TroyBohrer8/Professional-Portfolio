@@ -4,11 +4,11 @@
     float: left;
 }
 
-.jumbotron {
+/* .jumbotron {
     color: #000;
     background: #ff0000;
     margin: auto;
-}
+} */
 
 #about-me {
     flex-wrap: wrap;
