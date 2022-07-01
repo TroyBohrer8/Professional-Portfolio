@@ -11,6 +11,27 @@ section {
 
 .hero {
   height: 100vh;
+  color: #fff;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+li {
+  /* width: 200px; */
+  text-decoration: none;
+  cursor: pointer;
 }
 
 footer {
