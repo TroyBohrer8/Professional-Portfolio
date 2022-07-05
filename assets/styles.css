@@ -4,17 +4,6 @@
   font-family: "Oswald", sans-serif;
 }
 
-section {
-  height: 500px;
-  background-color: #000;
-  border: solid black 1px;
-}
-
-.hero {
-  height: 100vh;
-  color: #fff;
-  font-size: 40px;
-}
 /* Navbar */
 nav {
   display: flex;
@@ -40,6 +29,13 @@ li:hover {
 }
 
 /* Hero Section */
+.hero {
+  background-color: #000;
+  height: 100vh;
+  color: #fff;
+  font-size: 40px;
+}
+
 h1 {
   font-size: 90px;
 }
@@ -73,15 +69,32 @@ h1 {
 
 .socials {
   padding-bottom: 200px;
-  margin: 20px;
+  margin-right: 20px;
   cursor: pointer;
 }
-
-svg {
-  color: white;
+/* About Me */
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  background-color: #536f7a;
+  color: #fff;
+  padding: 80px;
 }
+
+h2 {
+  font-size: 50px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+  height: 350px;
+}
+
 /* Footer */
 footer {
   height: 500px;
   background-color: black;
 }
+
