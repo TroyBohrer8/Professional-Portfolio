@@ -73,6 +73,12 @@ h1 {
 
 .socials {
   padding-bottom: 200px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+svg {
+  color: white;
 }
 /* Footer */
 footer {
