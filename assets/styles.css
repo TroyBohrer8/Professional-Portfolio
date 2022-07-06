@@ -19,12 +19,12 @@ ul {
   font-size: 30px;
 }
 
-li {
+.nav-links {
   text-decoration: none;
   cursor: pointer;
 }
 
-li:hover {
+.nav-links:hover {
   color: #ff0000;
   transition: 0.5s;
 }
@@ -74,7 +74,7 @@ h1 {
   cursor: pointer;
 }
 /* About Me */
-.about-me {
+#about-me {
   display: flex;
   justify-content: space-between;
   height: 500px;
@@ -95,7 +95,7 @@ h2 {
 }
 
 /* Projects */
-.projects {
+#projects {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -113,6 +113,7 @@ h2 {
   height: 500px;
   border: 1px solid black;
   box-shadow: 5px 5px 20px black;
+  margin: 10px;
 }
 
 .project-image {
@@ -121,9 +122,24 @@ h2 {
   border-radius: 150px;
 }
 
-/* Footer */
-footer {
+.project-links {
+  text-decoration: none;
+}
+
+.project-links:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* Contact */
+#contact-me {
   height: 500px;
   background-color: black;
+  text-align: center;
+  padding: 80px;
 }
 
